@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+*/node_modules/
+package-lock.json
+pnpm-lock.yaml
+
+# Maxfiy kalitlar va muhit fayllari (ENG MUHIMI)
+.env
+.env.*
+!.env.example
+*.pem
+credentials.json
+google-credentials.json
+service-account*.json
+
+# Build va compilyatsiya natijalari
+dist/
+build/
+*/dist/
+*/build/
+
+# Dinamik generatsiya qilinadigan fayllar (PDF va PPTX)
+*.pdf
+*.pptx
+temp/
+uploads/
+generated/
+
+# Log va debug fayllari
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# Muhit va tizim kesh fayllari
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# SSH tünel va vaqtinchalik konfiguratsiyalar
+*.local
+tunnel.log

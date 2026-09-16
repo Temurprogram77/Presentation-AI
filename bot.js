@@ -16,7 +16,6 @@ if (!token) {
     process.exit(1);
 }
 
-// Telegraf — timeout va agent sozlamalari bilan (IPv4 majburiy)
 const bot = new Telegraf(token, {
     handlerTimeout: 90_000,
     telegram: {
